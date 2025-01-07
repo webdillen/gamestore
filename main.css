@@ -8,6 +8,13 @@
 body{
     font-family: Dillen;
 }
+
+
+
+
+::-webkit-scrollbar{
+    width: 0px;
+}
 .head{
     background-color: #FFFFFF;
     height: 60px;
@@ -119,6 +126,15 @@ body{
     box-shadow: #07cf00 0px 0px 10px;
     margin-bottom: 30px; 
     margin-right: 10px;     
+}
+
+.circle-btn img:hover{
+    transition: all 0.5s ease-in-out;
+    transform: rotate( 360deg );    
+}
+
+.circle-btn:hover{
+    transition: all 0.5s ease-in-out;
 }
 
 .circle-btn img{
