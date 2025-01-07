@@ -13,6 +13,7 @@ body{
 }
 
 
+
 .head{
     background-color: #FFFFFF;
     height: 60px;
@@ -128,7 +129,6 @@ body{
 .circle-btn:hover{
     transition: all 0.5s ease-in-out;
     transform: rotate( 360deg );
-    filter: blur(2px);
 }
 .circle-btn img{
     width: 40px;
@@ -165,7 +165,7 @@ body{
 
 .box-game-v{
     margin: 5px;
-    background-color: #fffcd7;    
+    background-color: #fffdea;    
     border-radius: 10px;
     width: 400px;
     height: 100px;
