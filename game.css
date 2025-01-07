@@ -14,11 +14,11 @@ body{
     filter: drop-shadow(#bbbbbb 0px 0px 5px);
 }
 .box-s-top img{
-    width: 50px;
+    width: 40px;
 }
 .box-s-top p{
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 20px;
     margin-top: 10px;
     margin-right: 10px;
     margin-left: auto;
@@ -33,7 +33,7 @@ body{
 }
 .game-box img{
     margin-top: 50px;
-    width: 300px;
+    width: 70%;
     border-radius: 30px;
     filter: drop-shadow(#a8a8a8 0px 2px 3px);
 }
@@ -55,11 +55,17 @@ body{
     margin-right: auto;
 }
 
+
+.buy:hover{
+    transition: all 0.5s ease-in-out;
+
+}
+
 .buy{
     color: #0e5600;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 200px;    
+    width: 70%;    
     border-radius: 25px;
     margin-top: 10px;
     margin-left: auto;
@@ -68,13 +74,37 @@ body{
     text-align: center;
     font-size: 25px;
     line-height: 25px;
+    border-style:solid;
+    border-width:2px;
+    border-color:#0078041e;
 }
+
+
 .box-line{
     margin-top: 30px;
     margin-bottom: 20px;
     display: flex;
-    line-height: 30px;
+
 }
+.red-box{
+    background-color: #ffbf00;
+    border-radius: 100px;
+    width: 80px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.box-line p{
+    color: #000000;
+    line-height: 15px;
+    font-size: 15px;
+    text-align: center;   
+    
+}
+
+
 .box-txt-info{    
     display: flex;
     flex-wrap: wrap;     
@@ -87,7 +117,7 @@ body{
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 1px 20px 1px 20px;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -101,15 +131,7 @@ body{
 .box-txt-info-edit{
     text-align: center;
 }
-.red-box{
-    background-color: #ffbf00;
-    border-radius: 100px;
-    width: 90px;
-    height: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-}
+
 .nothing{
     width: 100px;
     height: 100px;
