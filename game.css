@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{font-family:'dillen';
+    src:url('fonts/Dillen.ttf') format('truetype'),
+}
+body{
+    font-family: Dillen;
+}
+.box-s-top{
+    display: flex;   
+    margin: 20px 20px 0px 0px;
+    filter: drop-shadow(#bbbbbb 0px 0px 5px);
+}
+.box-s-top img{
+    width: 50px;
+}
+.box-s-top p{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+}
+.game-box h2{
+    color: #ffbf00;
+    margin-top: 10px;    
+}
+.game-box{
+    text-align: center;
+    text-shadow: #9f9f9f 0px 0px 1px;;
+}
+.game-box img{
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 30px;
+    filter: drop-shadow(#a8a8a8 0px 2px 3px);
+}
+.game-box h1{
+    margin-top: 10px;
+    line-height: 30px;
+}
+.box-photo{
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.box-photo img{
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: #9f9f9f 0px 2px 4px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy{
+    color: #0e5600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;    
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #26fd00;
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+}
+.box-line{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    line-height: 30px;
+}
+.box-txt-info{    
+    display: flex;
+    flex-wrap: wrap;     
+}
+.box-txt-info p{
+    text-align: center;
+    width: 120px;
+    background-color: #0000002f;
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px 20px 1px 20px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-txt-info-edit select{
+    font-family: Dillen;
+    font-size: 20px;
+    width: 70%;
+    height: 40px;
+    border-radius: 100px;
+}
+.box-txt-info-edit{
+    text-align: center;
+}
+.red-box{
+    background-color: #ffbf00;
+    border-radius: 100px;
+    width: 90px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.nothing{
+    width: 100px;
+    height: 100px;
+}
