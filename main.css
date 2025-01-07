@@ -8,19 +8,17 @@
 body{
     font-family: Dillen;
 }
-
-
-
-
 ::-webkit-scrollbar{
     width: 0px;
 }
+
+
 .head{
     background-color: #FFFFFF;
     height: 60px;
     width: 100%;
     padding-top: 5px;
-    box-shadow: #000000 0px 5px 10px;
+    box-shadow: #00000034 0px 5px 10px;
 
     position: fixed;
 
@@ -30,30 +28,31 @@ body{
     z-index: 1000;
 }
 .one-header{
-    background-color: #FFFFFF;
-    height: 100%;      
-    text-align: center;
+    padding: 5px 10px 5px 10px;
+    display: flex;
 }
 .search-box{
     border-radius: 10px;
     background-color: #F1F2F6;
     color: #868686;
     text-align: right;
-    margin-top: 10px;
-    line-height: 0px;
-    width: auto;
-    height: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-    box-shadow: #dcdcdc 0px 5px 10px;
-    padding-top: 9px;
-    padding-bottom: 11px;
-    padding-right: 10px;
+    line-height: 20px;
+    width: 100%;
+    height: auto;
+    box-shadow: #00000036 0px 3px 10px;
+    padding: 11px 10px 11px 10px;  
 }
 .search-box input{
     all: unset;
-
 }
+.user{
+    width: 40px;   
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 2px;
+    filter: drop-shadow(#9f9f9f 0px 0px 5px);
+}
+
 .nothing{
     width: auto;
     height: 100px;
@@ -112,7 +111,6 @@ body{
     padding: 10px;
 }
 
-
 .circle-btn {
     position: fixed;
     bottom: 20px;
@@ -127,16 +125,11 @@ body{
     margin-bottom: 30px; 
     margin-right: 10px;     
 }
-
-.circle-btn img:hover{
-    transition: all 0.5s ease-in-out;
-    transform: rotate( 360deg );    
-}
-
 .circle-btn:hover{
     transition: all 0.5s ease-in-out;
+    transform: rotate( 360deg );
+    filter: blur(2px);
 }
-
 .circle-btn img{
     width: 40px;
     margin-top: 12px;
@@ -169,6 +162,7 @@ body{
     margin: 5px;
 }
 
+
 .box-game-v{
     margin: 5px;
     background-color: #fffcd7;    
@@ -187,7 +181,7 @@ body{
 }
 .box-game-v h2{    
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 15px;
     margin-left: 5px;
 }
 .box-game-v p{    
@@ -202,12 +196,9 @@ body{
     width: 90px;
     padding: 2px 3px 2px 3px;
 }
-
 .left-v{
     margin-left: auto;
 }
-
-
 .end-site{
     box-shadow: #000000 0px 10px 20px;
     background-color: #f4f4f4;
@@ -231,7 +222,6 @@ body{
     margin-left: 15px;
     line-height: 15px;
 }
-
 .box-line{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -319,7 +309,7 @@ body{
 }
 .box-game img:hover{
     transition: all 0.5s ease-in-out; 
-    filter: brightness(2);
+    filter: brightness(1.2);
 }
 
 .box-part:hover{
@@ -329,4 +319,3 @@ body{
     border-color:#000000;
     filter: blur(2px);
 }
-
