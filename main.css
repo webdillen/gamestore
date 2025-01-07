@@ -132,7 +132,7 @@ body{
     height: auto;
     border-radius: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -141,7 +141,7 @@ body{
     color: #ffd000;
 }
 .cover-game{
-    width: 150px;
+    width: 120px;
     border-radius: 10px;
     margin: 5px;
 }
@@ -152,32 +152,33 @@ body{
     box-shadow: #fff893 0px 2px 5px 0px;
     border-radius: 10px;
     width: 400px;
-    height: auto;
+    height: 100px;
     border-radius: 10px;
     text-align: right;    
     line-height: 30px;    
     display: flex;
 }
 .cover-game-v{
-    width: 100px;
+    width: 90px;
     border-radius: 10px;
-    margin: 12px 12px 0px 5px;
+    margin: 5px;
 }
 .box-game-v h2{    
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 17px;
     margin-left: 5px;
 }
 .box-game-v p{    
     text-align: center;
     margin-top: 1px;
-    font-size: 12px;
+    font-size: 11px;
+    line-height: 11px;
     margin-left: auto;
     color: #fff3af;
     background-color: #000000a8;
     border-radius: 100px;
     width: 90px;
-    padding: 1px 5px 1px 5px;
+    padding: 2px 3px 2px 3px;
 }
 
 .left-v{
@@ -190,7 +191,7 @@ body{
     background-color: #f4f4f4;
     margin-top: 10px;
     width: auto;
-    height: 200px;
+    height: 110px;
     padding-top: 25px;
 
 }
@@ -219,7 +220,7 @@ body{
     background-color: #ffbf00;
     border-radius: 100px;
     width: 90px;
-    height: 5px;
+    height: 3px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -227,8 +228,8 @@ body{
 
 .box-line p{
     color: #000000;
-    line-height: 20px;
-    font-size: 20px;
+    line-height: 17px;
+    font-size: 17px;
     text-align: center;   
     
 }
