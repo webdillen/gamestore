@@ -68,12 +68,12 @@ body{
 .box-part p{
     line-height: 0px; 
     margin-top: 7px;   
-    font-size: 18px;
+    font-size: 14px;
 }
 .img-part{
     filter: drop-shadow(#bbbbbb 0px 0px 5px);
-    width: 50px;
-    margin-top: 9px;
+    width: 40px;
+    margin-top: 15px;
 }
 .box-part-all{
     display: flex;
@@ -243,22 +243,22 @@ body{
       margin-top: 0;
     }
     36% {
-      margin-top: -170px;
+      margin-top: -160px;
     }
     64% {
-      margin-top: -170px;
+      margin-top: -160px;
     }
     69% {
-      margin-top: -340px;
+      margin-top: -320px;
     }
     97% {
-      margin-top: -340px;
+      margin-top: -320px;
     }
   }
   
   .tcSlider {
     width: 95%;
-    height: 170px;
+    height: 160px;
     margin: auto;
     margin-bottom: 10px;
     background-color: #000;
@@ -269,9 +269,9 @@ body{
     animation: tc_slider 15s infinite;
   }
   .slider_img {
-    float: right;
+    float: left;
     width: 100%;
-    height: 170px;
+    height: 160px;
     background-position: center center;
     background-size: cover;
   }
