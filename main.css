@@ -136,6 +136,9 @@ body{
     line-height: 30px;
     margin-bottom: 20px;
     padding-bottom: 10px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#ffffff1e;
 }
 .value{
     color: #ffd000;
@@ -148,8 +151,7 @@ body{
 
 .box-game-v{
     margin: 5px;
-    background-color: #fffcd7;
-    box-shadow: #fff893 0px 2px 5px 0px;
+    background-color: #fffcd7;    
     border-radius: 10px;
     width: 400px;
     height: 100px;
@@ -219,7 +221,7 @@ body{
 .red-box{
     background-color: #ffbf00;
     border-radius: 100px;
-    width: 90px;
+    width: 80px;
     height: 3px;
     margin-left: auto;
     margin-right: auto;
@@ -228,8 +230,8 @@ body{
 
 .box-line p{
     color: #000000;
-    line-height: 17px;
-    font-size: 17px;
+    line-height: 15px;
+    font-size: 15px;
     text-align: center;   
     
 }
@@ -270,7 +272,7 @@ body{
     animation: tc_slider 15s infinite;
   }
   .slider_img {
-    float: left;
+    float: right;
     width: 100%;
     height: 160px;
     background-position: center center;
@@ -286,3 +288,15 @@ body{
     float: left;
     margin: -50px 0 0 20px;
   }
+
+
+.box-game:hover{
+    transition: all 0.5s ease-in-out; 
+    border-style:solid;
+    border-width:1px;
+    border-color:#ffffff;
+}
+.box-game img:hover{
+    transition: all 0.5s ease-in-out; 
+    filter: brightness(2);
+}
