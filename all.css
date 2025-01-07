@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{font-family:'dillen';
+    src:url('fonts/Dillen.ttf') format('truetype'),
+}
+body{
+    font-family: Dillen;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+.all-game-box{
+    display: flex;
+    flex-wrap: wrap;       
+}
+
+
+.head{
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 100%;
+    padding-top: 5px;
+    box-shadow: #00000034 0px 5px 10px;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.one-header{
+    padding: 5px 10px 5px 10px;
+    display: flex;
+}
+.search-box{
+    border-radius: 10px;
+    background-color: #F1F2F6;
+    color: #868686;
+    text-align: right;
+    line-height: 20px;
+    width: 100%;
+    height: auto;
+    box-shadow: #00000036 0px 3px 10px;
+    padding: 11px 10px 11px 10px;  
+}
+.search-box input{
+    all: unset;
+}
+.user{
+    width: 40px;   
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 2px;
+    filter: drop-shadow(#9f9f9f 0px 0px 5px);
+}
+
+.nothing{
+    width: auto;
+    height: 100px;
+}
+
+.circle-btn {
+    position: fixed;
+    bottom: 20px;
+    right : 10px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #00ff08;        
+    text-align: center;
+    text-decoration: none;
+    box-shadow: #07cf00 0px 0px 10px;
+    margin-bottom: 30px; 
+    margin-right: 10px;     
+}
+.circle-btn:hover{
+    transition: all 0.5s ease-in-out;
+    transform: rotate( 360deg );
+}
+.circle-btn img{
+    width: 40px;
+    margin-top: 12px;
+}
+
+.box-game{
+    margin-left: auto;
+    margin-right: auto;
+    
+    color: #ffffff;
+    background-color: #6635d9;
+    box-shadow: #2d1174 0px 5px 10px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#ffffff1e;
+}
+.value{
+    color: #ffd000;
+}
+.cover-game{
+    width: 120px;
+    border-radius: 10px;
+    margin: 5px;
+}
