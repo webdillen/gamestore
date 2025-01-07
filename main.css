@@ -58,9 +58,9 @@ body{
 .box-part{
     background-color: #ffffff;
     box-shadow: #dcdcdc 0px 5px 10px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
-    width: 190px;
+    width: 30%;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -106,8 +106,8 @@ body{
     position: fixed;
     bottom: 20px;
     right : 10px;
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     background-color: #00ff08;        
     text-align: center;
@@ -118,8 +118,8 @@ body{
 }
 
 .circle-btn img{
-    width: 50px;
-    margin-top: 15px;
+    width: 40px;
+    margin-top: 12px;
 }
 
 .box-game{
@@ -128,19 +128,20 @@ body{
     background-color: #6635d9;
     box-shadow: #2d1174 0px 5px 10px;
     border-radius: 10px;
-    width: 200px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border-radius: 10px;
     text-align: center;
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 .value{
     color: #ffd000;
 }
 .cover-game{
-    width: 190px;
+    width: 150px;
     border-radius: 10px;
     margin: 5px;
 }
@@ -148,33 +149,34 @@ body{
 .box-game-v{
     margin: 5px;
     background-color: #fffcd7;
-    box-shadow: #fffbbe 0px 5px 10px;
+    box-shadow: #fff893 0px 2px 5px 0px;
     border-radius: 10px;
     width: 400px;
-    height: 140px;
+    height: auto;
     border-radius: 10px;
     text-align: right;    
     line-height: 30px;    
     display: flex;
 }
 .cover-game-v{
-    width: 130px;
+    width: 100px;
     border-radius: 10px;
-    margin: 5px;
+    margin: 12px 12px 0px 5px;
 }
 .box-game-v h2{    
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 5px;
 }
 .box-game-v p{    
+    text-align: center;
     margin-top: 1px;
-    font-size: 15px;
+    font-size: 12px;
     margin-left: auto;
     color: #fff3af;
     background-color: #000000a8;
     border-radius: 100px;
-    width: 100px;
+    width: 90px;
     padding: 1px 5px 1px 5px;
 }
 
@@ -194,17 +196,17 @@ body{
 }
 .end-site h1{
     color: #1a0257;
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
     margin-left: 10px;
     line-height: 30px;
 }
 .end-site p{
     color: #2b2b2b;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     margin-left: 15px;
-    line-height: 30px;
+    line-height: 15px;
 }
 
 .box-line{
